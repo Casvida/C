@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define TAM 3
+#define TAM 30
 
 void preencher(float *V);
 float resp(float *V,float X);
