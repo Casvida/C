@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-#define TAM 400
+#define TAM 40
 
 void preencher(int *V);
 void imprimir(int *V);
