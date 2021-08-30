@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define TAM 15
+#define TAM 150
 
 void preencher(int *V);
 void inverter(int *V);
