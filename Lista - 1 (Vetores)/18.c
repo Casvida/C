@@ -21,7 +21,16 @@ void preencher(char *V1,char *V2,int tam){
 }
 
 void imprimir(char *V1,char *V2,int tam){
-  int tamanho1,tamanho2,conteudo;
+  int i=0,tamanho1=0,tamanho2=0,conteudo=0;
+  while(V1[i]!='\0'){
+    V1[i]=tolower(V1[i]);
+    i++;
+  }
+  i=0;
+  while(V2[i]!='\0'){
+    V2[i]=tolower(V2[i]);
+    i++;
+  }
   conteudo=strcmp(V1,V2);
   tamanho1=strlen(V1);
   tamanho2=strlen(V2);
